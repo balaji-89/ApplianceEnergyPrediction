@@ -7,6 +7,7 @@ Also, some additional data is added to this dataset that as temperature, humidit
 
 The main work is to predict the energy the appliances consume using these available variables. This dataset has data with a range from Jan (mid) - May, yes it has only 4.5 months of data, which may be a little difficult to accurately predict the future.
 So, the main objective is to create three regression models and find their individual best by hyperparameter tuning.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ![image](https://github.com/balaji-89/ApplianceEnergyPrediction/assets/57706260/51154bec-eafa-44fe-875c-2b44909b1198)
 
@@ -20,5 +21,31 @@ After removing the correlated features, the next and final thing is scaling the 
 
 And finally, we will have data ready for model building. Here I am going to try three different models of SVM, one boosting algorithm and one bagging algorithm. Finally, after building the model by finding the best parameters for the model using hyperparameter tuning, I go to the same the best model's weights, so that we don't train the model again. 
 This is a detailed summary of my project, which explains roughly what I am going to do.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## Library Used:
+  - Pytorch
+  - Numpy
+  - Pandas
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) 
+## Execution Instructions:
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/balaji-89/ApplianceEnergyPrediction.git
+   ```
+
+
+2. Run :
+      open file under src/models/ppliance_energy_ML.ipynb, then run it cell by cell
+   
+Feel free to modify and adapt the content according to your project's specific details and requirements.
+
+
+
+
 
 
