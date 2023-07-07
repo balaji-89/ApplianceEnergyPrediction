@@ -25,9 +25,10 @@ This is a detailed summary of my project, which explains roughly what I am going
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Library Used:
-  - Pytorch
+  - Matplotlib, Seaborn
   - Numpy
   - Pandas
+  - Sklearn
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) 
 ## Execution Instructions:
